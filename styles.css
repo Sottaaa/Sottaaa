@@ -1,0 +1,131 @@
+*{
+    font-family: Helvetica;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+}
+
+
+/*Cabeçalho*/
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    background-color: rgb(85, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    border-bottom: 5px solid rgb(51, 0, 0);
+}
+
+.titulo-site {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    border: 3px solid rgb(56, 0, 0);
+    border-radius: 7px;
+    padding: 4px;
+    background-color: rgb(85, 0, 0);
+    transition: .7s;
+}
+
+.titulo-site:hover {
+    background-color: rgb(56, 0, 0);
+}
+
+.bnt-site {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.bnt-site1{
+    margin-right: 18px;
+}
+
+#bnt-1 {
+    color: white;
+    border: 3px solid rgb(56, 0, 0);
+    transition: .7s;
+    background-color: rgb(85, 0, 0);
+    border-radius: 7px;
+    font-size: 24px;
+    padding: 4px;
+}
+
+#bnt-1:hover {
+    background-color: rgb(54, 0, 0);
+}
+
+/*Informaçes*/
+
+.titulo-info {
+   text-align: center;
+   padding: 15px;
+   font-weight: bold;
+   font-size: 22px;
+}
+
+.imagem {
+    height: 450px;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    padding-left: 100px;
+    margin-left: 340px;
+    border-left: 0;
+    
+}
+
+#photo {
+    background-image: url(../img/Xxxtentacion.jpg);
+}
+
+.subt {
+    text-align: center;
+    font-size: 24px;
+    border: 10px;
+    padding: 20px;
+}
+
+.parag {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/*Rodapé*/
+
+footer {
+    background-color: rgb(85, 0, 0);
+    border-top: 5px solid rgb(56, 0, 0);
+    border-bottom: 5px solid rgb(56, 0, 0);
+    justify-content: space-around;
+    display: flex;
+    align-items: center; 
+    padding: 50px;   
+    text-align: center;
+
+}
+
+.Logo {
+    font-size: 25px;
+}
+
+.cntt {
+    list-style: none;
+    color: #fff;
+
+}
